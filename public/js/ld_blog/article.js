@@ -1,0 +1,1 @@
+window.onload=function(){var b=function(c){var a=document.getElementsByClassName(c);for(var i=0;i<a.length;i++){var e=a[i];if(e){e.parentNode.removeChild(e)}}};var d=document.getElementById('ad');if(d){d.parentNode.removeChild(d)}['blog_ad2','footer-ranking','linelive-ranking','footer-external-links','footer-blog-banner','footer-copy'].forEach(function(c){b(c)})};
